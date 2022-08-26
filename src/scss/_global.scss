@@ -1,0 +1,33 @@
+// Global
+
+body{
+    font-family: Nunito, sans-serif;
+    background-color: $basic-white;
+    color: $basic-black;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol{
+    list-style: none;
+    padding: none;
+}
+
+input,
+button,
+textarea{
+    background: none;
+    border: none;
+    font-family: inherit;
+}
+
+.container{
+    max-width: 1370px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
